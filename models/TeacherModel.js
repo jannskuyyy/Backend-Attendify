@@ -9,6 +9,7 @@ const Teacher = db.define(
     TeacherName: DataTypes.STRING,
     Address: DataTypes.STRING,
     Email: DataTypes.STRING,
+    Number: DataTypes.INTEGER,
     Username: DataTypes.STRING,
     Password: DataTypes.STRING,
   },
